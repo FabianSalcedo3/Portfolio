@@ -18,7 +18,7 @@ export class ProgettiComponent {
       ],
       'To-Do List',
       [
-        './../../assets/immagini/todolist1.PNG',
+        './assets/immagini/todolist1.PNG',
         './../../assets/immagini/todolist2.PNG',
         './../../assets/immagini/todolist3.PNG'
       ],
