@@ -1,0 +1,41 @@
+<div class="card bg-transparent text-white border-0">
+  <div id="carouselId{{count}}" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div *ngFor="let immagine of progetto.immagini; let j = index;" class="carousel-item"
+        [ngClass]="{'active': j == 0}">
+        <img src="{{immagine}}" class="img-fluid" id="immagineProgetto">
+      </div>
+    </div>
+    <button class="carousel-control-prev bottone-carousel" type="button" [attr.data-target]="'#carouselId'+count"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next bottone-carousel" type="button" [attr.data-bs-target]="'#carouselId'+count"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="card-body">
+    <h4 class="card-title"><b>{{progetto.titolo}}</b><span *ngIf="progetto.titolo == 'Winedustry'"
+        class="badge bg-warning ms-1">wip</span></h4>
+    <p class="card-text">{{progetto.descrizione}}</p>
+    <ul class="list-unstyled d-flex gap-2 fs-4 justify-content-center justify-content-md-start">
+      <li *ngFor="let icon of progetto.icone">
+        <i *ngIf="icon != 'fa-database' else db" class="fa-brands {{icon}}" [ngClass]="{
+          'red': icon == 'fa-html5',
+          'blue': icon == 'fa-css3',
+          'yellow': icon == 'fa-js',
+          'java': icon == 'fa-java'
+        }"></i>
+        <ng-template #db><i class="fa-solid {{icon}} database"></i></ng-template>
+      </li>
+    </ul>
+    <p class="d-flex flex-column gap-2">
+      <a *ngIf="progetto.titolo != 'Winedustry'" target="_blank" href="{{progetto.links.live}}" type="button"
+        class="btn btn-outline-info">Watch Live</a>
+      <a target="_blank" href="{{progetto.links.github}}" type="button" class="btn btn-outline-light">Checkout code</a>
+    </p>
+  </div>
+</div>

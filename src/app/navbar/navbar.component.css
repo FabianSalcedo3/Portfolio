@@ -1,0 +1,64 @@
+.navWrapper {
+  z-index: 999;
+  top: 0;
+  transition: all 250ms ease-in;
+}
+
+.navSlide {
+  z-index: 999;
+}
+
+#navbar {
+  background-color: #279acc;
+  opacity: 0.95;
+}
+
+#logo {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 5px;
+  /* text-shadow: 1px 1px 1px rgb(33, 33, 33); */
+}
+
+#navbarSupportedContent {
+  flex-basis: -moz-available !important;
+}
+
+#tendina {
+  background-color: transparent;
+}
+
+#tendina li {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: .5rem 1rem;
+  transition: all 250ms ease;
+}
+
+#tendina li a {
+  color: white;
+}
+
+#tendina li:hover {
+  background-color: #fefefe;
+  transition: all 250ms ease;
+}
+
+#tendina li a:hover {
+  color: #191919;
+}
+
+@media screen and (min-width: 760px) {
+
+  .navSlide {
+    top: -100px;
+    transition: all 500ms ease;
+    z-index: 999;
+  }
+
+  .navWrapper {
+    z-index: 999;
+    top: 0;
+    transition: all 250ms ease-in;
+  }
+}

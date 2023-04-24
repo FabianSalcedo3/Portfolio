@@ -1,0 +1,28 @@
+#immagineProgetto {
+  width: 500px;
+  height: 250px;
+}
+
+.bottone-carousel {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.red {
+  color: #d84924;
+}
+
+.blue {
+  color: #2196f3;
+}
+
+.yellow {
+  color: #ead41c;
+}
+
+.java {
+  color: #f07a12;
+}
+
+.database {
+  color: #478cb0;
+}
