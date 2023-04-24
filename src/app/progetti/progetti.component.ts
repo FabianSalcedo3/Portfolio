@@ -18,9 +18,9 @@ export class ProgettiComponent {
       ],
       'To-Do List',
       [
-        './assets/immagini/todolist1.PNG',
-        './../../assets/immagini/todolist2.PNG',
-        './../../assets/immagini/todolist3.PNG'
+        'assets/immagini/todolist1.PNG',
+        'assets/immagini/todolist2.PNG',
+        'assets/immagini/todolist3.PNG'
       ],
       'Una semplice lista di task da compiere settando il solo giorno sviluppata in JavaScript e stilizzata in CSS',
       {
@@ -35,9 +35,9 @@ export class ProgettiComponent {
       ],
       'Deliverando',
       [
-        './../../assets/immagini/deliverando1.JPG',
-        './../../assets/immagini/deliverando2.JPG',
-        './../../assets/immagini/deliverando3.JPG'
+        'assets/immagini/deliverando1.JPG',
+        'assets/immagini/deliverando2.JPG',
+        'assets/immagini/deliverando3.JPG'
       ],
       'Layout sviluppato in Bootstrap',
       {
@@ -54,12 +54,12 @@ export class ProgettiComponent {
       ],
       'Winedustry',
       [
-        './../../assets/immagini/windesutry1.JPG',
-        './../../assets/immagini/windesutry2.JPG',
-        './../../assets/immagini/windesutry3.JPG',
-        './../../assets/immagini/windesutry4.JPG',
-        './../../assets/immagini/windesutry5.JPG',
-        './../../assets/immagini/windesutry6.JPG'
+        'assets/immagini/windesutry1.JPG',
+        'assets/immagini/windesutry2.JPG',
+        'assets/immagini/windesutry3.JPG',
+        'assets/immagini/windesutry4.JPG',
+        'assets/immagini/windesutry5.JPG',
+        'assets/immagini/windesutry6.JPG'
       ],
       "Sito E-Commerce di una selezione dei migliori vini Italiani divisi per 5 regioni. Il progetto e' stato sviluppato in un team composto da 5 persone in modalita' Agile Scrum.",
       {
