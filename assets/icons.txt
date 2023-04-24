@@ -1,0 +1,5 @@
+<i class="fa-brands fa-java"></i> java
+<i class="fa-brands fa-css3-alt"></i> css
+<i class="fa-brands fa-html5"></i> html
+<i class="fa-brands fa-angular"></i> angular
+<i class="fa-brands fa-js"></i> js
