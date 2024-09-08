@@ -3,7 +3,7 @@
     <div class="carousel-inner" role="listbox">
       <div *ngFor="let immagine of progetto.immagini; let j = index;" class="carousel-item"
         [ngClass]="{'active': j == 0}">
-        <img src="{{immagine}}" class="img-fluid" id="immagineProgetto">
+        <img src="{{immagine}}" class="img-fluid" id="immagineProgetto{{j}}">
       </div>
     </div>
     <button class="carousel-control-prev bottone-carousel" type="button" [attr.data-bs-target]="'#carouselId'+count"
